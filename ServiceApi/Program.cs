@@ -8,9 +8,9 @@ builder.AddRedisDistributedCache("RedisCache");
 builder.Services.AddScoped<IEmployeeGeneratorService, EmployeeGeneratorService>();
 builder.Services.AddCors(options => options.AddDefaultPolicy(policy =>
 {
-    policy.AllowAnyOrigin();
-    policy.AllowAnyMethod();
-    policy.AllowAnyHeader();
+    policy.WithOrigins("https://localhost:36905")
+          .WithMethods("GET")
+          .AllowAnyHeader();
 }));
 
 var app = builder.Build();
