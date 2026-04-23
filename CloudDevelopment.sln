@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireApp.ServiceDefaults",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service.Api", "ServiceApi\Service.Api.csproj", "{888B9F35-3A72-42E9-A176-BA7A19ED878C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.Gateway", "Api.Gateway\Api.Gateway.csproj", "{FE44C324-0DA5-4434-8963-E9A17DC65ED8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{888B9F35-3A72-42E9-A176-BA7A19ED878C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{888B9F35-3A72-42E9-A176-BA7A19ED878C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{888B9F35-3A72-42E9-A176-BA7A19ED878C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE44C324-0DA5-4434-8963-E9A17DC65ED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE44C324-0DA5-4434-8963-E9A17DC65ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE44C324-0DA5-4434-8963-E9A17DC65ED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE44C324-0DA5-4434-8963-E9A17DC65ED8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
